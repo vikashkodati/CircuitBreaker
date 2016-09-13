@@ -1,0 +1,9 @@
+---
+applications:
+- name: kodati_bookstore
+  memory: 1G
+  path: target/bookstore-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack_offline_tmo
+  services:
+  - pcf-eureka
+
