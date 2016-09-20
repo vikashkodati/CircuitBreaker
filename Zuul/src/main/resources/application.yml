@@ -5,11 +5,11 @@ spring:
   application:
     name: zuulproxy
 
-eureka:
-  client:
-    registryFetchIntervalSeconds: 15
-    service-url: 
-      defaultZone: http://localhost:8761/eureka/
+#eureka:
+#  client:
+#    registryFetchIntervalSeconds: 15
+#    service-url: 
+#      defaultZone: https://eureka-a1b2e5d9-a892-4afa-84b5-1c4997dcee84.apps.px-01.cf.t-mobile.com/eureka/
       
 zuul:
   routes:
