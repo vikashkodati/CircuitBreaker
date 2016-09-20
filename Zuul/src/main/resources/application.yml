@@ -5,6 +5,10 @@ spring:
   application:
     name: zuulproxy
 
+security:
+  basic:
+    enabled: false
+
 #eureka:
 #  client:
 #    registryFetchIntervalSeconds: 15
