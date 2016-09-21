@@ -13,7 +13,7 @@ public class BookstoreApplication {
 
   @RequestMapping(value = "/bookstore/recommended")
   public String readingList(){
-    return "Spring in Action (Manning), Cloud Native Java (O'Reilly), Learning Spring Boot (Packt)";
+      return "Bookstore backend service is up and invoked successfully";
   }
 
   public static void main(String[] args) {
