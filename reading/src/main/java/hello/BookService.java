@@ -17,7 +17,7 @@ public class BookService {
   }
 
   public String reliable() {
-    return "Cloud Native Java (O'Reilly)";
+    return "Reliable fallback method invoked\n";
   }
 
 }
