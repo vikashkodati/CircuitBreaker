@@ -12,7 +12,7 @@ public class BookService {
   public String readingList() {
     RestTemplate restTemplate = new RestTemplate();
     //URI uri = URI.create("http://kodati-bookstore.apps.px-01.cf.t-mobile.com/bookstore/recommended");
-    URI uri = URI.create("http://ZUULPROXY/bookstore/recommended");
+    URI uri = URI.create("https://zuulproxy/bookstore/recommended");
 
     return restTemplate.getForObject(uri, String.class);
   }
